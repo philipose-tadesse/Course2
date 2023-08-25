@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Entity
 @Data
-@Table(Course_Table)
 public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
