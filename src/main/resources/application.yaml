@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    hikari:
+      username: root
+      password: rootpass
+      jdbc-url: jdbc.Mysql://localhost3306/course2
+      driver-class-name: com.mysql.jdbc.driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database-platform: Mysql
